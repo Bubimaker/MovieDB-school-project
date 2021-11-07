@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GenreActivity">
+
+    <LinearLayout
+        android:id="@+id/fullLayoutMovies"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/headLayoutMovies"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:background="@color/lightgrey">
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/back_button"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/titleMovies"
+                android:layout_width="323dp"
+                android:layout_height="match_parent"
+                android:paddingLeft="50dp"
+                android:paddingTop="22dp"
+                android:text="@string/platzhalterTitle"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sectionLayoutMovies"
+            android:layout_width="match_parent"
+            android:layout_height="476dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/information1"
+                android:layout_width="match_parent"
+                android:layout_height="197dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:paddingLeft="20dp"
+                android:paddingTop="15dp"
+                android:paddingRight="20dp"
+                android:text="@string/platzhalter"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/line"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/movieDetailsTrailerTitle"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="@string/trailer"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/movieDetailsTrailerDescription"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/trailerDescription"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnToTrailer"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:backgroundTint="@color/darkblue"
+                android:text="@string/clickHere"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/regisseur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/black"
+                android:paddingTop="11dp"
+                android:textSize="16sp"
+                android:text="@string/regisseur" />
+
+            <TextView
+                android:id="@+id/actors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="@string/actors" />
+
+            <TextView
+                android:id="@+id/length"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="@string/Lenght" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/footerLayoutMovies"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/lightgrey"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/footerStuffMovies"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="12dp"
+                android:text="@string/footerStuff"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

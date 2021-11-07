@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/trailerTitle"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/trailer"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/trailerSource"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:text="@string/trailerSource" />
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/trailer"
+            android:layout_width="match_parent"
+            android:layout_height="203dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/darkgrey" />
+
+        <Button
+            android:id="@+id/btnTrailer"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:backgroundTint="@color/darkblue"
+            android:text="@string/btnTrailer"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginTop="6dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:text="@string/message" />
+
+        <Button
+            android:id="@+id/trailerBack"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:backgroundTint="@color/darkblue"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="@string/back" />
+    </LinearLayout>
+</RelativeLayout>

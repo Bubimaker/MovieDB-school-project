@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MovieDB</string>
+    <string name="title">MovieDB</string>
+    <string name="btnGenres">Genres</string>
+    <string name="frontSectionText">Welcome to MovieDB. Our database stores a wide range of movies from various genres.
+        Information, as well as a trailer are available for the various films.</string>
+    <string name="topratedMovie">Toprated Movie of this Month</string>
+    <string name="footerStuff">Creators: Nicolas Frank, Lars ter Hofte</string>
+    <string name="descriptionGenres">Select a Genre</string>
+    <string name="titleGenreAction">Action</string>
+    <string name="platzhalterTitle">Title</string>
+    <string name="platzhalter">jfdsjafljdklasjfkldjlskajfkldjsaklfjdlsajfldsjalfjdklasjfldjasklfjdklsjafldjlsafjdsa.</string>
+    <string name="regisseur">Regisseur</string>
+    <string name="actors">Actors</string>
+    <string name="Lenght">Length</string>
+    <string name="addMovieTitle">Add Movie</string>
+    <string name="addMovieDescription">Please use only small letters to select the genre, for example: fantasy</string>
+    <string name="addButton">Save Movie</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="btnTrailer">Play</string>
+    <string name="trailer">Trailer</string>
+    <string name="back">Back</string>
+    <string name="trailerDescription">Follow this button to watch the trailer of this movie.</string>
+    <string name="clickHere">Click here</string>
+    <string name="line">------------------------------------------------------------------------------------------------------------</string>
+    <string name="trailerSource">The source of this trailer is from YouTube.</string>
+    <string name="message">We hope you enjoy our app :)</string>
+</resources>

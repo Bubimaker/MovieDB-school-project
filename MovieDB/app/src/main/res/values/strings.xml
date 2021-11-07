@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MovieDB</string>
+    <string name="title">MovieDB</string>
+    <string name="btnGenres">Genres</string>
+    <string name="frontSectionText">Welcome to MovieDB. Our database stores a wide range of movies from various genres.
+        Information, as well as a trailer are available for the various films.</string>
+    <string name="topratedMovie">Toprated Movie of this Month</string>
+    <string name="footerStuff">Creators: Nicolas Frank, Lars ter Hofte</string>
+    <string name="descriptionGenres">Select a Genre</string>
+    <string name="titleGenreAction">Action</string>
+    <string name="platzhalterTitle">Hallo</string>
+    <string name="platzhalter">jfdsjafljdklasjfkldjlskajfkldjsaklfjdlsajfldsjalfjdklasjfldjasklfjdklsjafldjlsafjdsaf
+        jfdjklajfdjasklfjdklsajfkldjsaklfjdklsajfdklsajfkldjsalfjdlsajf.</string>
+    <string name="addMovieTitle">Add Movie</string>
+    <string name="addMovieDescription">Please use only small letters to select the genre for example: fantasy</string>
+    <string name="addButton">Save Movie</string>
+</resources>
