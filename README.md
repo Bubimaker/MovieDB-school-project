@@ -7,6 +7,5 @@ My Vision while creating this app was to create a small Android app which displa
 [Architecture overview](Architecture-MovieDb-2021-11-07.pdf)
 
 Screenshots
-
-![Bild1](https://user-images.githubusercontent.com/93601229/140644756-5f0a54c5-a5d1-469d-bff1-b7843fe4cfae.png)
-![Bild2](https://user-images.githubusercontent.com/93601229/140644759-32d781e1-6e02-4cfe-8e42-2f474de08479.png)
+<img width="365" alt="Page1" src="https://user-images.githubusercontent.com/93601229/140645574-50e62109-c7ac-4715-aaad-7f7c2313ef19.PNG">
+<img width="361" alt="Page2" src="https://user-images.githubusercontent.com/93601229/140645587-88c04e61-ffc7-415d-a23f-8205160b95b0.PNG">
